@@ -1,0 +1,11 @@
+projectName:
+MW
+
+projectDataset:
+1
+
+MLModel:
+MLP
+
+rootFolder:
+C:\MyDoc\Research\study1
