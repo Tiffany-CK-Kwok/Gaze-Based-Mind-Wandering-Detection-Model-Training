@@ -5,7 +5,7 @@ projectDataset:
 1
 
 MLModel:
-MLP
+SVM
 
 rootFolder:
 C:\MyDoc\Research\study1

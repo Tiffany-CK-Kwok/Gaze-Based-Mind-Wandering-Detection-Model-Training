@@ -112,7 +112,7 @@ public class MindWandering {
                         runRandomForest(100, false);
                     }else if(mlModel.equals("SVM")){
                         // Run SMO
-                        runSMO("-C 20.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K \"weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007\"", false);
+                        runSMO("-C 20.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K \"weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007\"", true);
                     }else if(mlModel.equals("MLP")){
                         // Run MLP
                         runMLP("-L 0.5 -M 0.3 -N 500 -V 0 -S 0 -E 20 -H a,5 -D", false);
